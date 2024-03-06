@@ -17,6 +17,10 @@ img{
     display:block;
 }
 
+menu{
+    list-style-type: none;
+}
+
 .page-header{
     border-bottom: 1px solid #e7e9fc;
 
