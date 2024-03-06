@@ -13,6 +13,10 @@ ul{
     list-style-type: none;
 }
 
+img{
+    display:block;
+}
+
 .logo{
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
