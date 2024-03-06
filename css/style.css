@@ -153,6 +153,11 @@ menu{
     color:#2E2F42
 }
 
+.values-list{
+    display: flex;
+
+}
+
 .values-text{
     font-size: 16px;
     color: #434455;
