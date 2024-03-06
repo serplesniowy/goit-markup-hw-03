@@ -155,7 +155,7 @@ menu{
 
 .values-list{
     display: flex;
-
+    gap: 24px;
 }
 
 .values-text{
