@@ -150,7 +150,10 @@ menu{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:#2E2F42
+    color:#2E2F42;  
+    margin-bottom: 8px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .values-list{
@@ -158,11 +161,18 @@ menu{
     gap: 24px;
 }
 
+.values-list-item{
+    width: calc((100% - 72px) / 4);
+
+}
+
 .values-text{
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+    
 
 }
 
@@ -178,11 +188,23 @@ menu{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2E2F42;
+    margin-bottom: 72px;
 
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
 }
 
 .photo-frame{
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.photo-cont{
+    padding: 32px 16px;
 }
 
 .footer-text{
