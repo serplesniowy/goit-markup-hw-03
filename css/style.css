@@ -17,6 +17,31 @@ img{
     display:block;
 }
 
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1158px;
+
+
+}
+
+.page-nav{
+    display: flex;
+    align-items: center;
+}
+
+.contact-list{
+    display: flex;
+    gap: 40px;
+
+}
+
 .logo{
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -25,6 +50,7 @@ img{
     text-transform: uppercase;
     letter-spacing: 0.03em;
     line-height: 1.17;
+    margin-right: 76px;
 }
 
 .logo2{
@@ -42,9 +68,16 @@ img{
     color:#2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .contact-link:hover, .contact-link:focus, .contact-link:active{
     color: #404BBF;
+
+}
+
+.contact{
+    display: flex;
+    gap: 40px;
 
 }
 
