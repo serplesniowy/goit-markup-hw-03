@@ -21,9 +21,18 @@ menu{
     list-style-type: none;
 }
 
+.visually-hidden{
+    clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .page-header{
     border-bottom: 1px solid #e7e9fc;
-
 }
 
 .container{
@@ -31,8 +40,6 @@ menu{
     margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
-
-
 }
 
 .page-nav{
@@ -134,7 +141,9 @@ menu{
     max-width: 496px;
 }
 
-
+.section{
+    padding: 120px 0;
+}
 
 .our-values{
     font-weight: 500;
@@ -180,6 +189,7 @@ menu{
 
 .order-service{
     background-color: #2E2F42;
+    padding: 188px 0;
 
 }
 
