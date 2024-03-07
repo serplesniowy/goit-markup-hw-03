@@ -47,7 +47,7 @@ menu{
     align-items: center;
 }
 
-.contact-list{
+.menu{
     display: flex;
     gap: 40px;
 
@@ -73,7 +73,7 @@ menu{
 
 }
 
-.contact-link{
+.menu-link{
     font-size:16px;
     font-weight: 500;
     color:#2E2F42;
@@ -81,7 +81,8 @@ menu{
     letter-spacing: 0.02em;
     padding: 24px 0;
 }
-.contact-link:hover, .contact-link:focus, .contact-link:active{
+
+.menu-link:hover, .menu-link:focus, .menu-link:active{
     color: #404BBF;
 
 }
@@ -204,7 +205,10 @@ menu{
 }
 
 .photo-cont{
-    padding: 32px 16px;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 16px;
 }
 
 .portfolio-list{
