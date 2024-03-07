@@ -243,18 +243,17 @@ img{
     border-top: none;
 }
 
-.footer-logo{
-    font-family: "Raleway", sans-serif;
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-    margin-bottom: 16px;
     display: inline-block;
-}
+    margin-bottom: 16px;
+  }
 
 .footer-logo2{
     color:#f4f4fd;
@@ -280,6 +279,3 @@ img{
     height: 312px;
 }
 
-footer div {
-    display: block;
-}
