@@ -65,6 +65,8 @@ img{
 .menu{
     display: flex;
     gap: 40px;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -171,6 +173,8 @@ img{
 .values-list{
     display: flex;
     gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 .values-list-item{
