@@ -125,20 +125,20 @@ img{
 }
 
 .order-service-button{
-    background-color:#4D5AE5;
-    cursor: pointer;
-    font-family: Roboto, sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    background-color: #4D5AE5;
-    border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  font-family: inherit;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
 }
 
 .order-service-button:hover, .order-service-button:focus{
