@@ -172,7 +172,7 @@ menu{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    
+
 
 }
 
@@ -204,6 +204,23 @@ menu{
 }
 
 .photo-cont{
+    padding: 32px 16px;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+
+.portfolio-list-item{
+    width: calc((100% - 48px) / 3);
+
+}
+
+.portfolio-description{
     padding: 32px 16px;
 }
 
